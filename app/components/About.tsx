@@ -50,7 +50,7 @@ export default function About() {
           <div className="relative rounded-3xl overflow-hidden group">
             <div className="aspect-[4/3] relative">
               <Image
-                src="/images/about.png"
+                src="/la-forme-cafe/images/about.png"
                 alt="Útulný interiér kavárny La Forme v Bubenči"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"

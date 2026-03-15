@@ -9,7 +9,7 @@ export default function Hero() {
     >
       {/* Background Image */}
       <Image
-        src="/images/hero.png"
+        src="/la-forme-cafe/images/hero.png"
         alt="Interiér kavárny La Forme"
         fill
         priority
