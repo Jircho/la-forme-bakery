@@ -49,12 +49,10 @@ export default function About() {
           {/* Image */}
           <div className="relative rounded-3xl overflow-hidden group">
             <div className="aspect-[4/3] relative">
-              <Image
+              <img
                 src="/la-forme-cafe/images/about.png"
                 alt="Útulný interiér kavárny La Forme v Bubenči"
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
             {/* Floating Badge */}

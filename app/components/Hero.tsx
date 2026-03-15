@@ -8,13 +8,10 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <Image
+      <img
         src="/la-forme-cafe/images/hero.png"
         alt="Interiér kavárny La Forme"
-        fill
-        priority
-        className="object-cover"
-        sizes="100vw"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       {/* Gradient Overlay */}

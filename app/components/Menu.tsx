@@ -111,12 +111,10 @@ export default function MenuSection() {
                 }`}
               >
                 <div className="aspect-square relative">
-                  <Image
+                  <img
                     src={category.image}
                     alt={category.imageAlt}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
