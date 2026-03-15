@@ -22,7 +22,7 @@ const categories = [
         price: "110 Kč",
       },
     ],
-    image: "/la-forme-cafe/images/coffee.png",
+    image: "/la-forme-bakery/images/coffee.png",
     imageAlt: "Latte art v La Forme kavárně",
   },
   {
@@ -46,7 +46,7 @@ const categories = [
         price: "95 Kč",
       },
     ],
-    image: "/la-forme-cafe/images/croissant.png",
+    image: "/la-forme-bakery/images/croissant.png",
     imageAlt: "Řemeslné máslové croissanty",
   },
   {
@@ -71,7 +71,7 @@ const categories = [
         price: "110 Kč",
       },
     ],
-    image: "/la-forme-cafe/images/pastry.png",
+    image: "/la-forme-bakery/images/pastry.png",
     imageAlt: "Ovocný dezert z pekárny La Forme",
   },
 ];

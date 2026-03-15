@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // Na GitHubu přidá název repozitáře, u tebe na PC (localhost) nepřidá nic
-  basePath: isProd ? '/la-forme-cafe' : '',
-  assetPrefix: isProd ? '/la-forme-cafe/' : '',
+  basePath: isProd ? '/la-forme-bakery' : '',
+  assetPrefix: isProd ? '/la-forme-bakery/' : '',
 };
 
 export default nextConfig;
